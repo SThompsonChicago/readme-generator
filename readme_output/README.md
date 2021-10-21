@@ -1,9 +1,9 @@
-# a
+# f
 
 
   ## Description
 
-  a
+  f
 
   ## Table of Contents
 
@@ -17,6 +17,8 @@
 
   * [Questions](#questions)
 
+  * [License](#license)
+
   ## Installation
 
   To install necessary dependencies, run the following command:
@@ -29,7 +31,7 @@
 
   ## Contributing
 
-  a
+  aeaf
 
   ## Tests
 
@@ -39,5 +41,9 @@
 
   ## Questions
 
-  My GitHub profile can be found at https://github.com/a.
-  You can contact me via email at a.
+  My GitHub profile can be found at https://github.com/f.
+  You can contact me via email at f.
+
+  ## License
+
+    https://opensource.org/licenses/MIT
