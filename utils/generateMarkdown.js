@@ -39,7 +39,7 @@ function generateMarkdown(data) {
 
   ## Usage
 
-  ${data.usage}
+  ${data.usaging}
 
   ## Contributing
 
