@@ -2,9 +2,10 @@
 const { info } = require('console');
 const fs = require('fs');
 const inquirer = require('inquirer');
-//const generateMarkdown = require('utils/generateMarkdown.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+
+// Create an array of questions for user input
 const questions = [
     {
         message: "What is your GitHub username?",
@@ -49,13 +50,18 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, generateMarkdown(data), (err) => {
+        err ? console.error(err) : console.log("nice");
+    });
+}
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
-        console.log(answers);
+        console.log('Generating README...\n');
+        writeToFile('./readme_output/README.md', answers);
     });
 }
 
