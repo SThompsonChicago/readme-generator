@@ -1,9 +1,9 @@
-# Good Project
+# Employee Tracker
 
 
   ## Description
 
-  This project is really good.
+  This is a command-line interface that allows the user to add information to a database. The database contains information about employees in different departments at a company. The program uses mysql, inquirer and javascript. 
 
   ## Table of Contents
 
@@ -27,11 +27,11 @@
 
   ## Usage
 
-  It's great
+  
 
   ## Contributing
 
-  Just don't
+  
 
   ## Tests
 
@@ -41,9 +41,7 @@
 
   ## Questions
 
-  My GitHub profile can be found at https://github.com/Hello.
-  You can contact me via email at test@test.com.
+  My GitHub profile can be found at https://github.com/SThompsonChicago.
+  You can contact me via email at s31@umbc.edu.
 
-  ## License
-
-    https://opensource.org/licenses/MIT
+  
